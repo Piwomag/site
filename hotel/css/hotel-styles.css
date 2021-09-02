@@ -1,0 +1,496 @@
+@font-face {
+    font-family: 'MullerRegular';
+    src: url(../fonts/MullerRegular.woff);
+    src: url(../fonts/MullerRegular.woff2);
+}
+@font-face {
+    font-family: 'MullerBold';
+    src: url(../fonts/MullerBold.woff);
+    src: url(../fonts/MullerBold.woff2);
+}
+@font-face {
+    font-family: 'MullerLight';
+    src: url(../fonts/MullerLight.woff);
+    src: url(../fonts/MullerLight.woff2);
+}
+@font-face {
+    font-family: 'MullerMedium';
+    src: url(../fonts/MullerMedium.woff);
+    src: url(../fonts/MullerMedium.woff2);
+}
+* {
+    box-sizing: border-box;
+}
+:root {
+    --color:#cc9933;
+}
+html {
+    font-family: 'MullerRegular';
+}
+body {
+    background-color: #f1f1f1;
+}
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+a {
+    text-decoration: none;
+}
+
+
+input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h2 {
+    font-size: 40px;
+    margin-left: 40px;
+    
+}
+img {
+    max-width: 100%;
+}
+
+.discription {
+    line-height: 1.5;
+}
+input {
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+button:hover  {
+    -o-transform: translate(-5px, 5px);
+  -ms-transform: translate(-5px, 5px);
+  -moz-transform: translate(-5px, 5px);
+  -webkit-transform: translate(-5px, 5px);
+  transform: translate(-5px, 5px);
+  background-color: #666666;
+  transition: 1s ease;
+}
+
+
+/*header*/
+
+.header {
+    height: 190px;
+}
+.info-list {
+    display: flex;
+    align-items: center;  
+    margin-top: 30px;
+}
+.tel {
+    margin-left: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "MullerRegular";
+
+
+}
+.account {
+  margin-left: auto;
+ 
+}
+.acc-link {
+    color: var(--color);
+}
+.nav {
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin-top: 30px;
+    width: 100%;
+    
+}
+.nav-list:first-child {
+    margin-left: 20px;
+}
+
+
+.search {
+    width: 350px;
+    height: 48px;
+    background-color: #f1f1f1;
+    position: relative;
+    
+    
+}
+.nav-list {
+    display: flex;
+    margin-top: 30px;
+  padding-bottom: 30px;
+}
+.nav-item {
+    margin-right: 50px;
+}
+.nav-link {
+    color: black;
+    line-height: 32px;
+}
+
+/* hero */
+
+.hero1:nth-child(-n+2) {
+    margin-right: 55px;
+
+}
+.lux {
+    padding-top: 205px;
+    padding-left: 45px;
+    padding-bottom: 20px;
+    width: 100%;
+    font-size: 66px;
+    color: white;
+    max-width: 180px;
+    font-family:'MullerRegular' ;
+    font-weight: bold;
+}
+.special {
+    background-image: url(../img/22.jpg);
+    height: 530px;
+    width: 595px;
+    
+    
+}
+.special-discription {
+    display: flex;
+    max-width: 360px;
+    align-items: flex-end;
+   
+    
+
+}
+.lux-price {
+    
+    padding-left: 45px;   
+    width: 100%;
+    font-size: 30px;
+    color:rgb(221,214, 206) ;
+   
+}
+.more {
+   
+    width: 100%;
+    font-size: 16px;
+    color: #ffcc66
+}
+.input-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    margin-bottom: 40px;
+    
+}
+.btn {
+    max-width: 160px;
+    width: 100%;
+    border: 1px ;
+    background-color: var(--color);
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    padding: 25px;
+    color: white; 
+}
+.input-text {
+    margin-bottom: 30px;
+}
+.txt {
+    height: 70px;
+    width: 520px;
+}
+
+
+/*about us*/
+.section-about-us {
+    margin-bottom: 60px;
+    margin-top: 50px;
+    padding-left: 40px;
+}
+.discription {
+    line-height: 2;
+    color: #666666;
+    font-size: 16px;
+}
+
+/* serwis */
+.serwis-list{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+   
+.serwis-item {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    
+}
+
+.serwis-discription {
+  padding: 35px;
+  
+}
+.right {
+    margin-left: 30px;
+}
+.serwis-link {
+    color: var(--color);
+    font-family: 'MullerRegular';
+    font-weight: medium;
+}
+/* advantage */
+
+    
+
+.advantage-item:not(:nth-child(4n)) {
+    margin-right: 25px;
+}
+.advantage-item {
+    height: 273px;
+    width: 273px;
+    padding: 30px;
+    margin-bottom: 25px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+/*accommodation*/
+
+
+.accom-item:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+.accom-item {
+    width: 370px;
+    margin-bottom: 60px;
+    background-color: #ffffff;
+    height: 445px;
+    border-radius: 20px;
+}
+.room-btn {
+    display: inline-block;
+    border: 1px var(--color) solid;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    color: var(--color);
+    text-align: center;
+    font-family: 'MullerRegular';
+    font-weight: bold;
+}   
+.room-btn:hover {
+    -o-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -webkit-transform: translateY(-6px);  
+    transform: translateY(-6px);
+    border-radius: 8px;
+    background-color:#666666 ;
+    transition: .4s ease-in-out;
+}
+.accom-discription {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   margin-left: 40px;
+   transform: translateY(-20px);
+   
+}
+.place {
+    color: rgb(221,214, 206) ;
+}
+.view {
+    
+    height: 220px;
+    width: 370px;
+   
+}
+.more-rooms {
+    display: flex; 
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 32px;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-left: 40px;
+    box-sizing: border-box;
+    
+}
+
+.stars {
+  
+   margin-left: 230px;
+   margin-top: 20px;
+   transform: translateY(-3px);
+}
+.accom-item-rock {
+    background-image: url(../img/41.png);
+    height: 445px;
+    background-repeat: no-repeat;
+    width: 370px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+.more-rooms::after {
+    content:  '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/*footer*/
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-titles {
+    display: flex;
+    justify-content: space-between;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 630px;
+    width: 470px;
+    background-color: #ffffff;
+    padding: 40px;
+}
+.write-to-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 130px;
+    padding-top: 100px;
+
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.input {
+    height: 70px;
+    width: 330px;
+    margin-bottom: 25px;
+}
+textarea {
+    height: 110px;
+    width: 330px;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.btn-sbmt {
+    border: 1px solid var(--color);
+    height: 70px;
+    width: 330px;
+    margin-bottom: 30px;
+    background-color:var(--color);
+    color: #ffffff;
+    border-radius: 10px;
+}
+.contact-title {
+    font-family: 'MullerRegular';
+    font-weight: bold;
+    color: #666666;
+}
+.contact-info {
+    color:  var(--color);
+}
+.contact-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #cccccc;
+}
+.data {
+    width: 230px;
+}
+.road-btn {
+    color:var(--color) ;
+    font-family: 'MullerRegular';
+    font-weight: bold;
+    border: 2px solid var(--color);
+    height: 70px;
+    width: 210px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.road-btn:hover {
+    border-radius: 10px;
+    background-color: #666666;
+    transition: .5s;
+}
+.section-end {
+    margin-top: 20px;
+    height: 340px;
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 30px;
+    background-image: url(../img/lg.png);
+    background-repeat: no-repeat;
+    background-position: top 111px right 178px;
+}
+.company-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    height: 240px;
+    width: 270px;
+}
+.company-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 16px;
+    width: 360px;
+    color: #ffffff;
+    height: 170px;
+}
+.links {
+    width: 155px;
+}
+.media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 208px;
+}
+.media-pic {
+  height: 25px;
+  width: 25px;
+}
